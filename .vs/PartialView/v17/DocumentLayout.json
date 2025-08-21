@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nahid\\Desktop\\Pb305\\PartialView\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|c:\\users\\nahidbm\\desktop\\partialview-automapper\\partialview\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|solutionrelative:partialview\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PustokDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\Data\\PustokDbContext.cs",
+              "RelativeDocumentMoniker": "PartialView\\Data\\PustokDbContext.cs",
+              "ToolTip": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\Data\\PustokDbContext.cs",
+              "RelativeToolTip": "PartialView\\Data\\PustokDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T16:44:29.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

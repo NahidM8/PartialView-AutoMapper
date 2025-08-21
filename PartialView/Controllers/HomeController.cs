@@ -1,14 +1,18 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using PartialView.Models;
+using PartialView.Data;
+using PartialView.ViewModels;
 
 namespace PartialView.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(PustokDbContext pustokDbContext) : Controller
     {
         public IActionResult Index()
         {
-            return View();
+            HomeVm homeVm = new()
+            {
+                Sliders = pustokDbContext.Sliders.ToList()
+            };
+            return View(homeVm);
         }
     }
 }

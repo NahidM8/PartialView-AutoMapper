@@ -1,4 +1,5 @@
-﻿<!--=================================
+﻿@model HomeVm
+<!--=================================
         Hero Area
         ===================================== -->
 <section class="hero-area hero-slider-1">
@@ -14,18 +15,17 @@
             <div class="container">
                 <div class="home-content text-center text-sm-left position-relative">
                     <div class="hero-partial-image image-right">
-                        <img src="image/bg-images/home-slider-2-ai.png" alt="">
+                        <img src="image/bg-images/@Model.Sliders[0].ImageUrl" alt="">
                     </div>
                     <div class="row g-0">
                         <div class="col-xl-6 col-md-6 col-sm-7">
                             <div class="home-content-inner content-left-side text-start">
                                 <h1>
-                                    H.G. Wells<br>
-                                    De Vengeance
+                                    @Model.Sliders[0].Title
                                 </h1>
-                                <h2>Cover Up Front Of Books and Leave Summary</h2>
-                                <a href="shop-grid.html" class="btn btn-outlined--primary">
-                                    $78.09 - Order Now!
+                                <h2>@Model.Sliders[0].Description</h2>
+                                <a href="@Model.Sliders[0].ButtonLink" class="btn btn-outlined--primary">
+                                    @Model.Sliders[0].ButtonText
                                 </a>
                             </div>
                         </div>
@@ -37,18 +37,17 @@
             <div class="container">
                 <div class="home-content text-center text-sm-left position-relative">
                     <div class="hero-partial-image image-left">
-                        <img src="image/bg-images/home-slider-1-ai.png" alt="">
+                        <img src="image/bg-images/@Model.Sliders[1].ImageUrl" alt="">
                     </div>
                     <div class="row align-items-center justify-content-start justify-content-md-end">
                         <div class="col-lg-6 col-xl-7 col-md-6 col-sm-7">
                             <div class="home-content-inner content-right-side text-start">
                                 <h1>
-                                    J.D. Kurtness <br>
-                                    De Vengeance
+                                    @Model.Sliders[1].Title
                                 </h1>
-                                <h2>Cover Up Front Of Books and Leave Summary</h2>
-                                <a href="shop-grid.html" class="btn btn-outlined--primary">
-                                    $78.09 - Learn More
+                                <h2>@Model.Sliders[1].Description</h2>
+                                <a href="@Model.Sliders[1].ButtonLink" class="btn btn-outlined--primary">
+                                    @Model.Sliders[1].ButtonText
                                 </a>
                             </div>
                         </div>

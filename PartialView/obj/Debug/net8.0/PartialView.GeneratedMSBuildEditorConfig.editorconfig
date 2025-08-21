@@ -17,29 +17,29 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PartialView
 build_property.RootNamespace = PartialView
-build_property.ProjectDir = C:\Users\Nahid\Desktop\Pb305\PartialView\PartialView\
+build_property.ProjectDir = C:\Users\nahidbm\Desktop\PartialView-AutoMapper\PartialView\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Nahid\Desktop\Pb305\PartialView\PartialView
+build_property.MSBuildProjectDirectory = C:\Users\nahidbm\Desktop\PartialView-AutoMapper\PartialView
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Nahid/Desktop/Pb305/PartialView/PartialView/Views/Home/Index.cshtml]
+[C:/Users/nahidbm/Desktop/PartialView-AutoMapper/PartialView/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nahid/Desktop/Pb305/PartialView/PartialView/Views/_ViewImports.cshtml]
+[C:/Users/nahidbm/Desktop/PartialView-AutoMapper/PartialView/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nahid/Desktop/Pb305/PartialView/PartialView/Views/_ViewStart.cshtml]
+[C:/Users/nahidbm/Desktop/PartialView-AutoMapper/PartialView/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Nahid/Desktop/Pb305/PartialView/PartialView/Views/Shared/_Layout.cshtml]
+[C:/Users/nahidbm/Desktop/PartialView-AutoMapper/PartialView/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n0g2bf1c01

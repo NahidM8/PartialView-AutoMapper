@@ -1,13 +1,24 @@
-﻿namespace PartialView.Models
+﻿using System.ComponentModel.DataAnnotations;
+using PartialView.Models.Common;
+
+namespace PartialView.Models
 {
-    public class Book
+    public class Book:BaseEntity
     {
-        public int Id { get; set; }
-        public string Title { get; set; } = string.Empty;
-        public string Author { get; set; } = string.Empty;
-        public string Genre { get; set; } = string.Empty;
-        public string Description { get; set; }
-        public string AuthorUrl { get; set; }
-        public string CoverImageUrl { get; set; } = string.Empty;
+        public string? Title { get; set; }
+        public int AuthorId { get; set; }
+        public Author Author { get; set; }
+        public int GenreId { get; set; }
+        public Genre Genre { get; set; }
+        public string? Description { get; set; }
+        public decimal Price { get; set; }
+        public decimal DiscountPercentage { get; set; }
+        public bool IsFeatured { get; set; }
+        public bool IsNew { get; set; }
+        public bool InStock { get; set; }
+        [Required]
+        public string? MainImageUrl { get; set; }
+        [Required]
+        public string? HoverImageUrl { get; set; }
     }
 }
