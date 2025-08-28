@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|c:\\users\\nahidbm\\desktop\\partialview-automapper\\partialview\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|solutionrelative:partialview\\data\\pustokdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|c:\\users\\nahidbm\\desktop\\partialview-automapper\\partialview\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|solutionrelative:partialview\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|c:\\users\\nahidbm\\desktop\\partialview-automapper\\partialview\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|solutionrelative:partialview\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|c:\\users\\nahidbm\\desktop\\partialview-automapper\\partialview\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F0885C6-68B0-4E35-AE82-B8BF6DCE14B3}|PartialView\\PartialView.csproj|solutionrelative:partialview\\viewmodels\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PustokDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\Data\\PustokDbContext.cs",
-              "RelativeDocumentMoniker": "PartialView\\Data\\PustokDbContext.cs",
-              "ToolTip": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\Data\\PustokDbContext.cs",
-              "RelativeToolTip": "PartialView\\Data\\PustokDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PartialView\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PartialView\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAkwLoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T16:22:05.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PartialView\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PartialView\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T16:44:29.033Z",
+              "WhenOpened": "2025-08-28T16:15:16.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeVm.cs",
+              "DocumentMoniker": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\ViewModels\\HomeVm.cs",
+              "RelativeDocumentMoniker": "PartialView\\ViewModels\\HomeVm.cs",
+              "ToolTip": "C:\\Users\\nahidbm\\Desktop\\PartialView-AutoMapper\\PartialView\\ViewModels\\HomeVm.cs",
+              "RelativeToolTip": "PartialView\\ViewModels\\HomeVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T16:08:30.185Z",
               "EditorCaption": ""
             }
           ]

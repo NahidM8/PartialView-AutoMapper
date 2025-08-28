@@ -1,8 +1,12 @@
-﻿namespace PartialView.Models
+﻿using System.ComponentModel.DataAnnotations;
+using PartialView.Models.Common;
+
+namespace PartialView.Models
 {
-    public class Author
+    public class Author: BaseEntity
     {
-        public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
+        public List<Book> Books { get; set; }
     }
 }

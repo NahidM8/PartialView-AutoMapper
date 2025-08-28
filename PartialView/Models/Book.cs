@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using PartialView.Models.Common;
 
 namespace PartialView.Models
@@ -11,6 +12,7 @@ namespace PartialView.Models
         public int GenreId { get; set; }
         public Genre Genre { get; set; }
         public string? Description { get; set; }
+        [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
         public decimal DiscountPercentage { get; set; }
         public bool IsFeatured { get; set; }
@@ -20,5 +22,6 @@ namespace PartialView.Models
         public string? MainImageUrl { get; set; }
         [Required]
         public string? HoverImageUrl { get; set; }
+        public List<BookImage> BookImages { get; set; }
     }
 }
